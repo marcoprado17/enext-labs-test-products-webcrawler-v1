@@ -55,7 +55,7 @@ KEY = HASH_MD5("https://www.arezzo.com.br/sapatos/rasteiras/sandalia-rasteira-me
 Para obter a imagem a original a partir da string fornecida e da url chave, podemos executar o seguinte script em nodejs:
 
 ```javascript
-// Imports das dependências
+// Import das dependências
 const md5 = require('md5');
 const crypto = require('crypto');
 const fs = require('fs');
@@ -105,9 +105,9 @@ As imagens criptografadas que você deverá descriptografar são as seguintes:
 * [encoded_and_encrypted_images/MAIN_IMAGE_2_ENCODED_AND_ENCRYPTED.txt](encoded_and_encrypted_images/MAIN_IMAGE_2_ENCODED_AND_ENCRYPTED.txt)
 * [encoded_and_encrypted_images/MAIN_IMAGE_3_ENCODED_AND_ENCRYPTED.txt](encoded_and_encrypted_images/MAIN_IMAGE_3_ENCODED_AND_ENCRYPTED.txt)
 
-# Task 4 [OPCIONAL] - Crie uma aplicação web com um formulário para testar as urls
+# Task 4 [OBRIGATÓRIO] - Crie uma aplicação web com um formulário para testar as urls
 
-Nessa tarefa, opcional, você deverá criar uma página em html, css e javascript puro ou com alguma framework como react, angular, bootstrap etc. Tal página deverá conter um formulário que deve:
+Nessa tarefa, você deverá criar uma página em html, css e javascript puro ou com alguma framework como react, angular, bootstrap etc. Tal página deverá conter um formulário que deve:
 
 * Conter um campo para entrada da imagem encodada e encriptada em texto;
 * Conter um campo para a url chave candidata a descriptografar a imagem;
@@ -115,13 +115,14 @@ Nessa tarefa, opcional, você deverá criar uma página em html, css e javascrip
 * Apresentar para o usuário a imagem descriptograda ou uma mensagem falando que a chave em questão não é válida.
 
 Você pode incrementar o quanto quiser essa interface para melhorar a experiência dos usuários que irão interagir com ela.
+Você pode simplificar a lógica para indicar seu uma url de produto é a key válida ou não, você deve exibir a imagem decriptada apenas quando o usuário inserir a url do produto que você descobriu na task 3.
 
 # Observações
 
 * Você poderá utiliza qualuqer linguagem para resolver o desafio, recomendamos python, nodejs ou java;
 * É extremamente recomendado a implementação de um arquivo README.md explicando com sua solução funciona, dependências, setup, tecnologias utilizadas etc;
 * É extremamente recomendado a utilização de git com commits claros e concisos;
-* Você deverá se cadastrar em nossa vaga no gupy ([https://enext.gupy.io/jobs/79401](https://enext.gupy.io/jobs/79401)) e enviar um .zip com todos os arquivos pertinentes. Não se esqueça de colocar o .git no .zip e também, o screenshot da imagem do desafio e também mencionar no email 
+* Você deverá se cadastrar em nossa vaga no gupy ([https://enext.gupy.io/jobs/79401](https://enext.gupy.io/jobs/79401)) e enviar um .zip com todos os arquivos pertinentes. Não se esqueça de colocar o .git no .zip e também, o screenshot da imagem do desafio e também mencionar no email qual é a url de produto para decriptar uma das imagens.
 
 # Dúvidas
 
