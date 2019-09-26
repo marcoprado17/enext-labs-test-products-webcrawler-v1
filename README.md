@@ -119,7 +119,7 @@ Você pode simplificar a lógica para indicar seu uma url de produto é a key v�
 
 # Observações
 
-* Você poderá utiliza qualuqer linguagem para resolver o desafio, recomendamos python, nodejs ou java;
+* Você poderá utiliza qualquer linguagem para resolver o desafio, recomendamos python, nodejs ou java;
 * É extremamente recomendado a implementação de um arquivo README.md explicando com sua solução funciona, dependências, setup, tecnologias utilizadas etc;
 * É extremamente recomendado a utilização de git com commits claros e concisos;
 * Você deverá se cadastrar em nossa vaga no gupy ([https://enext.gupy.io/jobs/79401](https://enext.gupy.io/jobs/79401)) e enviar um .zip com todos os arquivos pertinentes. Não se esqueça de colocar o .git no .zip e também, o screenshot da imagem do desafio e também mencionar no email qual é a url de produto para decriptar uma das imagens.
