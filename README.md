@@ -113,9 +113,8 @@ Nessa tarefa, você deverá criar uma página em html, css e javascript puro ou 
 * Conter um campo para a url chave candidata a descriptografar a imagem;
 * Conter um botão para testar a chave em questão;
 * Apresentar para o usuário a imagem descriptograda ou uma mensagem falando que a chave em questão não é válida.
-
-Você pode incrementar o quanto quiser essa interface para melhorar a experiência dos usuários que irão interagir com ela.
-Você pode simplificar a lógica para indicar seu uma url de produto é a key válida ou não, você deve exibir a imagem decriptada apenas quando o usuário inserir a url do produto que você descobriu na task 3.
+* Você pode incrementar o quanto quiser essa interface para melhorar a experiência dos usuários que irão interagir com ela.
+* Você pode simplificar a lógica para indicar seu uma url de produto é a key válida ou não, você deve exibir a imagem decriptada apenas quando o usuário inserir a url do produto que você descobriu na task 3.
 
 # Observações
 
